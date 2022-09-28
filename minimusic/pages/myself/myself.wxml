@@ -1,0 +1,50 @@
+<view class="container">
+  <view class="header">个人主页</view>
+
+  <view class="title">
+    <image src="../../img/banner5.png"></image>
+    <view class="head">
+      <image src="../../img/head.png"></image>
+      <text class="name">{{nickname}}</text>
+      <text class="login" wx:if="{{!isLogin}}" bindtap="login">点击登录</text>
+      <text class="logout" wx:if="{{isLogin}}" bindtap="logout">退出登录</text>
+    </view>
+  </view>
+
+  <view class="friend">
+    <image src="../../img/gr_1.png"></image>
+    <text class="name">我喜欢</text>
+    <image class="jt" src="../../img/jt.png"></image>
+  </view>
+  <view class="friend">
+    <image src="../../img/gr_2.png"></image>
+    <text class="name">本地音乐</text>
+    <image class="jt" src="../../img/jt.png"></image>
+  </view>
+  <view class="friend">
+    <image src="../../img/gr_3.png"></image>
+    <text class="name">最近播放</text>
+    <image class="jt" src="../../img/jt.png"></image>
+  </view>
+  <view class="friend">
+    <image src="../../img/gr_4.png"></image>
+    <text class="name">分享记录</text>
+    <image class="jt" src="../../img/jt.png"></image>
+  </view>
+  <view class="friend">
+    <image src="../../img/gr_5.png"></image>
+    <text class="name">我的歌单</text>
+    <image class="jt" src="../../img/jt.png"></image>
+  </view>
+  <view class="friend">
+    <image src="../../img/gr_6.png"></image>
+    <text class="name">已购</text>
+    <image class="jt" src="../../img/jt.png"></image>
+  </view>
+
+
+
+
+
+
+</view>

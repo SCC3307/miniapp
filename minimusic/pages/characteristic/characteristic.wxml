@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="header">小程序介绍</view>
+
+  <view class="title">
+    <image src="../../img/banner4.png"></image>
+  </view>
+
+  <view class="con">
+    <text class="b_title">程序介绍</text>
+    <text class="l_title">音乐小程序</text>
+    <text class="neirong">随着时代的发展，电子通信技术的进步，听音乐已经成了大多数人日常生活的一部分，闲来无事听听音乐是一种乐趣，而微信小程序的出现，更是给了我们更便捷地听音乐的机会，这得益于微信的庞大用户群体，无需安装也使苦于切换多个软件的人以解放，微信小程序的形式更受人们欢迎。</text>
+    <text class="neirong">本微信小程序能实现音乐播放与用户注册登录，使用node.js搭建服务器来连接MySQL数据库来保存用户数据</text>
+    <text class="neirong">整体配色使用中国红，更加契合即将到来的春节主题，增添节日气氛</text>
+
+
+
+  </view>
+
+  
+
+
+
+
+
+
+
+
+</view>

@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="header">用户注册</view>
+  <view class="login">
+    <view><label for="">账号：</label><input type="text" bindinput="changeUsername" /></view>
+    <view><label for="">密码：</label> <input type="text" bindinput="changePassword" /></view>
+    <view><label for="">确认密码：</label> <input type="text" bindinput="changeAPassword" /></view>
+    <view><label for="">昵称：</label> <input type="text" bindinput="changeNickname" /></view>
+    <button class="login_btn" bindtap="register">点击注册</button>
+  </view>
+
+</view>

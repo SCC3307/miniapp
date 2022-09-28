@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/characteristic/characteristic",
+    "pages/myself/myself",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "音乐小程序",
+    "navigationBarTextStyle": "black"
+  }, 
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "#000",
+    "selectedColor": "#d81e06",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "./img/nav10.png",
+          "selectedIconPath": "./img/nav11.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/characteristic/characteristic",
+          "iconPath": "./img/nav40.png",
+          "selectedIconPath": "./img/nav41.png",
+          "text": "小程序介绍"
+        },
+        {
+          "pagePath": "pages/myself/myself",
+          "iconPath": "./img/nav50.png",
+          "selectedIconPath": "./img/nav51.png",
+          "text": "个人主页"
+        }
+      ]
+  }
+}

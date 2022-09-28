@@ -1,0 +1,78 @@
+.container{
+  margin: 0;
+  padding: 0;
+  background-color: #8a1616;
+}
+.header{
+  width: 100%;
+  height: 60rpx;
+  background-color: #8a1616;
+  text-align: center;
+  line-height: 2em;
+  color: #fff;
+}
+.title{
+  width: 100%;
+  position: relative;
+}
+.title image{
+  width: 100%;
+}
+.head{
+  width: 120rpx;
+  height: 200rpx;
+  margin-left: -60rpx;
+  margin-top: -100rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+.head image{
+  height: 80rpx;
+  width: 80rpx;
+}
+.head text{
+  display: block;
+}
+.head .login{
+  margin: 20rpx 0;
+}
+.head .name{
+  color: rgb(185, 22, 22);
+  font-weight: bold;
+}
+.head .login,.head .logout{
+  background-color: #8a1616;
+  font-size: 20rpx;
+  color: rgb(158, 112, 112);
+  border-radius: 10rpx;
+}
+/* .head .logout{
+  display: none;
+} */
+
+.friend{
+  height: 80rpx;
+  padding-top: 20rpx;
+  border: 1rpx rgb(211, 208, 208) solid;
+  border-radius: 10rpx;
+  width: 90%;
+  background-color: #fff;
+  position: relative;
+  margin-top: 10rpx;
+}
+.friend image{
+  width: 35rpx;
+  height: 35rpx;
+  margin-left: 15rpx;
+  margin-right: 40rpx;
+  margin-top: 15rpx;
+}
+.jt{
+  width: 20rpx;
+  height: 20rpx;
+  position: absolute;
+  right: 0rpx;
+  top: 20rpxs;
+}

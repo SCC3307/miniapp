@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="header">用户登录</view>
+  <view class="login">
+    <view><label for=""> 账号：</label><input type="text" bindinput="syncUsername"/></view>
+    <view><label for="">密码：</label> <input type="text" bindinput="syncPassword"/></view>
+    <button class="login_btn" bindtap="userLogin">点击登录</button>
+    <button class="login_btn" bindtap="register">点击注册</button>
+  </view>
+
+</view>
